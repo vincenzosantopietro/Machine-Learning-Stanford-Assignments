@@ -12,12 +12,11 @@ figure; hold on;
 %               examples and 'ko' for the negative examples.
 %
 
-plot(X(find(y == 0)),y(find(y == 0)),'ko');%negative examples
+pos = find(y==1); %positive examples
+neg = find(y == 0);%negative examples
 
-plot(X(find(y == 1)),y(find(y == 1)),'k+');%positive examples
-
-
-
+plot(X(pos, 1), X(pos, 2), 'k+');
+plot(X(neg, 1), X(neg, 2), 'ko');
 
 % =========================================================================
 

@@ -21,12 +21,12 @@ grad = zeros(size(theta));
 
 h = sigmoid(X*theta);
 
-J = (1/m)*(-y'*log(h) - (1-y')*log(1-h)) + (lambda/m)*sum(theta);
+J = (1/m)*(-y'*log(h) - (1-y')*log(1-h)) + (lambda/2*m)*sum(theta(2:length(theta)).*theta(2:length(theta)));
 
-grad = (1/m) * X'*(h-y);
 
-reg_term = (lambda/m)*theta(2:length(theta),1);
-grad(2:length(grad),:) = grad(2:length(grad),:) + reg_term;
+grad = (1 / m) * sum( X .* repmat((sigmoid(X*theta) - y), 1, size(X,2)) );
+
+grad(:,2:length(grad)) = grad(:,2:length(grad)) + (lambda/m)*theta(2:length(theta))';
 
 % =============================================================
 
