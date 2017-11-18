@@ -4,3 +4,4 @@ In this repository I'll add my solutions to the assignments of the 'Machine Lear
   - Week 2
   - Week 3
   - Week 4
+  - Week 5
