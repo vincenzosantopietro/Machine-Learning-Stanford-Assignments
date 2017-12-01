@@ -6,3 +6,4 @@ In this repository I'll add my solutions to the assignments of the 'Machine Lear
   - Week 4
   - Week 5
   - Week 6
+  - Week 7
