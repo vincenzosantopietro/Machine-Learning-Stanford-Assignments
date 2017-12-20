@@ -8,3 +8,4 @@ In this repository I'll add my solutions to the assignments of the 'Machine Lear
   - Week 6
   - Week 7
   - Week 8
+  - Week 9 
