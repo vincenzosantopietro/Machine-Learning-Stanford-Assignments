@@ -1,6 +1,5 @@
-# Machine Learning Stanford Assignments
-
-In this repository I'll add my solutions to the assignments of the 'Machine Learning Stanford' course on Coursera. Assignments available at the moment:
+# Machine Learning Programming Assignments - Stanford [Coursera]
+In this repository I'll add my solutions to the assignments of the 'Machine Learning Stanford' class on Coursera. All assignments available:
   - Week 2
   - Week 3
   - Week 4
